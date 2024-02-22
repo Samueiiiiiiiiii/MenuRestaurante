@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 20px;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: auto;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .text {
+    width: 40%;
+    padding: -10px;
+    margin-top: 40px;
+  }
+  
+  .text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(15, 172, 99);
+  }
+  
+  .text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .text button {
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin: 20px 0 20px 90px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(15, 172, 99);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .image {
+    width: 40%;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+.logopagina {
+    position: absolute;
+    top: 80px;
+    left: 564px;
+    font-weight: bold;
+    color: rgb(21, 159, 95);
+    font-size: 25px;
+}
+.cuadrado {
+    position: absolute;
+    top: 740px;
+    left: 647px;
+    width: 260px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    
+}
+
+.cuadrado2 {
+    position: absolute;
+    top: 740px;
+    left: 50px;
+    width: 260px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    
+}
+
+.cuadrado3 {
+    position: absolute;
+    top: 740px;
+    left: 350px;
+    width: 260px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.cuadrado4 {
+    position: absolute;
+    top: 740px;
+    left: 947px;
+    width: 260px;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.papas {
+   position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 630px;
+    left: 100px;
+    margin-left: 0%;
+    z-index: 0;
+}
+
+.pasta {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 630px;
+    left: 410px;
+    margin-left: 0%;
+    z-index: 0;
+}
+
+.arroz {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 630px;
+    left: 710px;
+    margin-left: 0%;
+    z-index: 0;
+}
+
+.nacho {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    top: 630px;
+    left: 1000px;
+    margin-left: 0%;
+    z-index: 0;
+}
+
+.cuadrado p {
+    text-align: center; 
+    margin: 0; 
+    padding: 20px; 
+    font-size: 16px;
+}
+
+.cuadrado2 p {
+    text-align: center; 
+    margin: 0; 
+    padding: 20px; 
+    font-size: 16px;
+}
+
+.cuadrado3 p {
+    text-align: center; 
+    margin: 0; 
+    padding: 20px; 
+    font-size: 16px;
+}
+
+.cuadrado4 p {
+    text-align: center; 
+    margin: 0; 
+    padding: 20px; 
+    font-size: 16px;
+}
